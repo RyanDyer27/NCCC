@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.helpToHome">
+   <top>
+      <AnchorPane prefHeight="48.0" prefWidth="335.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#helpToHome" style="-fx-background-color: green;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <TextArea maxHeight="500.0" maxWidth="300.0" prefHeight="500.0" prefWidth="200.0" text="Build 1.0.0:&#10;Working login screen where the user enters a &#10;username and password. If the user enters the correct login credentials, they are taken to a welcome page.&#10;&#10;Build 1.0.2:&#10;A home screen that previews the functionalities the app will have once completed.&#10;&#10;Build 1.0.3:&#10;A home screen with working buttons bringing the user to seperate webpage scenes. Scenes are under construction." wrapText="true" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
